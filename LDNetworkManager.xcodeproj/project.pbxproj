@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022F427F229FDD0D0020C453 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 022F427E229FDD0D0020C453 /* AppDelegate.m */; };
+		022F4282229FDD0D0020C453 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022F4281229FDD0D0020C453 /* ViewController.m */; };
+		022F4285229FDD0D0020C453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022F4283229FDD0D0020C453 /* Main.storyboard */; };
+		022F4287229FDD0F0020C453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022F4286229FDD0F0020C453 /* Assets.xcassets */; };
+		022F428A229FDD0F0020C453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022F4288229FDD0F0020C453 /* LaunchScreen.storyboard */; };
+		022F428D229FDD0F0020C453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 022F428C229FDD0F0020C453 /* main.m */; };
+		022F429C229FDD840020C453 /* LDNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 022F4295229FDD830020C453 /* LDNetworkManager.m */; };
+		022F429D229FDD840020C453 /* LDNetWorkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 022F4298229FDD830020C453 /* LDNetWorkCache.m */; };
+		022F42A5229FDFB20020C453 /* QDResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 022F42A3229FDFB20020C453 /* QDResponseObject.m */; };
+		022F42A6229FDFB20020C453 /* QDNetWorkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 022F42A4229FDFB20020C453 /* QDNetWorkClient.m */; };
+		9359660722A4FD4500D3DF72 /* QDResponseIssueHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9359660522A4FD4400D3DF72 /* QDResponseIssueHandler.m */; };
+		D9AE48054AC283E813D6E1A2 /* libPods-LDNetworkManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C2229E00C634A70EE37BE /* libPods-LDNetworkManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00BA126EB8653A9582F5DE48 /* Pods-LDNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDNetworkManager.debug.xcconfig"; path = "Target Support Files/Pods-LDNetworkManager/Pods-LDNetworkManager.debug.xcconfig"; sourceTree = "<group>"; };
+		022F427A229FDD0D0020C453 /* LDNetworkManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDNetworkManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		022F427D229FDD0D0020C453 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		022F427E229FDD0D0020C453 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		022F4280229FDD0D0020C453 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		022F4281229FDD0D0020C453 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		022F4284229FDD0D0020C453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		022F4286229FDD0F0020C453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		022F4289229FDD0F0020C453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		022F428B229FDD0F0020C453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022F428C229FDD0F0020C453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		022F4295229FDD830020C453 /* LDNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNetworkManager.m; sourceTree = "<group>"; };
+		022F4296229FDD830020C453 /* LDNetWorkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNetWorkCache.h; sourceTree = "<group>"; };
+		022F4297229FDD830020C453 /* LDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNetworkManager.h; sourceTree = "<group>"; };
+		022F4298229FDD830020C453 /* LDNetWorkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNetWorkCache.m; sourceTree = "<group>"; };
+		022F42A1229FDFB20020C453 /* QDResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDResponseObject.h; sourceTree = "<group>"; };
+		022F42A2229FDFB20020C453 /* QDNetWorkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNetWorkClient.h; sourceTree = "<group>"; };
+		022F42A3229FDFB20020C453 /* QDResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDResponseObject.m; sourceTree = "<group>"; };
+		022F42A4229FDFB20020C453 /* QDNetWorkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNetWorkClient.m; sourceTree = "<group>"; };
+		022F42A7229FE0180020C453 /* NetworkRequestInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequestInterface.h; sourceTree = "<group>"; };
+		2454E86FD6792CD6F2EEB19B /* Pods-LDNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDNetworkManager.release.xcconfig"; path = "Target Support Files/Pods-LDNetworkManager/Pods-LDNetworkManager.release.xcconfig"; sourceTree = "<group>"; };
+		9359660522A4FD4400D3DF72 /* QDResponseIssueHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDResponseIssueHandler.m; sourceTree = "<group>"; };
+		9359660622A4FD4500D3DF72 /* QDResponseIssueHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDResponseIssueHandler.h; sourceTree = "<group>"; };
+		BF1C2229E00C634A70EE37BE /* libPods-LDNetworkManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDNetworkManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		022F4277229FDD0D0020C453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AE48054AC283E813D6E1A2 /* libPods-LDNetworkManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022F4271229FDD0D0020C453 = {
+			isa = PBXGroup;
+			children = (
+				022F427C229FDD0D0020C453 /* LDNetworkManager */,
+				022F427B229FDD0D0020C453 /* Products */,
+				BA6D342527A21F919A8F38F5 /* Pods */,
+				9006A2E582AAEC8D111568F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		022F427B229FDD0D0020C453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				022F427A229FDD0D0020C453 /* LDNetworkManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		022F427C229FDD0D0020C453 /* LDNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				022F427D229FDD0D0020C453 /* AppDelegate.h */,
+				022F427E229FDD0D0020C453 /* AppDelegate.m */,
+				022F42A0229FDFB20020C453 /* Network */,
+				022F4280229FDD0D0020C453 /* ViewController.h */,
+				022F4281229FDD0D0020C453 /* ViewController.m */,
+				022F4283229FDD0D0020C453 /* Main.storyboard */,
+				022F4286229FDD0F0020C453 /* Assets.xcassets */,
+				022F4288229FDD0F0020C453 /* LaunchScreen.storyboard */,
+				022F428B229FDD0F0020C453 /* Info.plist */,
+				022F428C229FDD0F0020C453 /* main.m */,
+			);
+			path = LDNetworkManager;
+			sourceTree = "<group>";
+		};
+		022F4294229FDD830020C453 /* LDNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				022F4296229FDD830020C453 /* LDNetWorkCache.h */,
+				022F4298229FDD830020C453 /* LDNetWorkCache.m */,
+				022F4297229FDD830020C453 /* LDNetworkManager.h */,
+				022F4295229FDD830020C453 /* LDNetworkManager.m */,
+			);
+			path = LDNetwork;
+			sourceTree = "<group>";
+		};
+		022F42A0229FDFB20020C453 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				022F4294229FDD830020C453 /* LDNetwork */,
+				022F42A2229FDFB20020C453 /* QDNetWorkClient.h */,
+				022F42A4229FDFB20020C453 /* QDNetWorkClient.m */,
+				022F42A1229FDFB20020C453 /* QDResponseObject.h */,
+				022F42A3229FDFB20020C453 /* QDResponseObject.m */,
+				9359660622A4FD4500D3DF72 /* QDResponseIssueHandler.h */,
+				9359660522A4FD4400D3DF72 /* QDResponseIssueHandler.m */,
+				022F42A7229FE0180020C453 /* NetworkRequestInterface.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9006A2E582AAEC8D111568F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C2229E00C634A70EE37BE /* libPods-LDNetworkManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA6D342527A21F919A8F38F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00BA126EB8653A9582F5DE48 /* Pods-LDNetworkManager.debug.xcconfig */,
+				2454E86FD6792CD6F2EEB19B /* Pods-LDNetworkManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		022F4279229FDD0D0020C453 /* LDNetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022F4290229FDD0F0020C453 /* Build configuration list for PBXNativeTarget "LDNetworkManager" */;
+			buildPhases = (
+				E4F294B39EAC371D69321E8D /* [CP] Check Pods Manifest.lock */,
+				022F4276229FDD0D0020C453 /* Sources */,
+				022F4277229FDD0D0020C453 /* Frameworks */,
+				022F4278229FDD0D0020C453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDNetworkManager;
+			productName = LDNetworkManager;
+			productReference = 022F427A229FDD0D0020C453 /* LDNetworkManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		022F4272229FDD0D0020C453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Li;
+				TargetAttributes = {
+					022F4279229FDD0D0020C453 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 022F4275229FDD0D0020C453 /* Build configuration list for PBXProject "LDNetworkManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 022F4271229FDD0D0020C453;
+			productRefGroup = 022F427B229FDD0D0020C453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				022F4279229FDD0D0020C453 /* LDNetworkManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		022F4278229FDD0D0020C453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022F428A229FDD0F0020C453 /* LaunchScreen.storyboard in Resources */,
+				022F4287229FDD0F0020C453 /* Assets.xcassets in Resources */,
+				022F4285229FDD0D0020C453 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4F294B39EAC371D69321E8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LDNetworkManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		022F4276229FDD0D0020C453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022F42A5229FDFB20020C453 /* QDResponseObject.m in Sources */,
+				022F42A6229FDFB20020C453 /* QDNetWorkClient.m in Sources */,
+				022F4282229FDD0D0020C453 /* ViewController.m in Sources */,
+				022F428D229FDD0F0020C453 /* main.m in Sources */,
+				022F429D229FDD840020C453 /* LDNetWorkCache.m in Sources */,
+				022F429C229FDD840020C453 /* LDNetworkManager.m in Sources */,
+				9359660722A4FD4500D3DF72 /* QDResponseIssueHandler.m in Sources */,
+				022F427F229FDD0D0020C453 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		022F4283229FDD0D0020C453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022F4284229FDD0D0020C453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		022F4288229FDD0F0020C453 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022F4289229FDD0F0020C453 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		022F428E229FDD0F0020C453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		022F428F229FDD0F0020C453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		022F4291229FDD0F0020C453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BA126EB8653A9582F5DE48 /* Pods-LDNetworkManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2SRHPNCBA;
+				INFOPLIST_FILE = LDNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AleX.LDNetworkManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		022F4292229FDD0F0020C453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2454E86FD6792CD6F2EEB19B /* Pods-LDNetworkManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2SRHPNCBA;
+				INFOPLIST_FILE = LDNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AleX.LDNetworkManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		022F4275229FDD0D0020C453 /* Build configuration list for PBXProject "LDNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022F428E229FDD0F0020C453 /* Debug */,
+				022F428F229FDD0F0020C453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		022F4290229FDD0F0020C453 /* Build configuration list for PBXNativeTarget "LDNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022F4291229FDD0F0020C453 /* Debug */,
+				022F4292229FDD0F0020C453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 022F4272229FDD0D0020C453 /* Project object */;
+}
