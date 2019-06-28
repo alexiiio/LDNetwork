@@ -6,7 +6,6 @@
 //
 
 #import "LDNetworkManager.h"
-#import "LDNetWorkCache.h"
 
 static NSHashTable *_allSessionTask;
 static AFHTTPSessionManager *_sessionManager;

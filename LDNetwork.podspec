@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/alexiiio/LDNetwork.git", :tag => "v0.0.1" }
 
-  s.source_files  = 'LDNetworkManager/Network/LDNetwork/*'
+  s.source_files  = 'LDNetworkManager/Network/LDNetwork/'
   
   s.dependency 'AFNetworking'
 
